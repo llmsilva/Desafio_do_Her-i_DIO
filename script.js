@@ -1,9 +1,9 @@
 const nome = "spiderMan";
-let xp = 10002;
+let xp = 1001;
 
-if (xp == 1000) {
+if (xp <= 1000) {
   console.log(`O herói ${nome} é nivel Ferro.`);
-} else if (xp > 1001 && xp <= 2000) {
+} else if (xp >= 1001 && xp <= 2000) {
   console.log(`O herói ${nome} é nível Bronze.`);
 } else if (xp > 2001 && xp <= 5000) {
   console.log(`O herói ${nome} é nível Prata.`);
